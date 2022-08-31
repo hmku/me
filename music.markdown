@@ -4,4 +4,16 @@ title: music
 permalink: /music/
 ---
 
-music stuff goes here
+A collection of all the projects I've worked on.
+
+### arrangements
+
+#### orchestral
+
+#### chamber
+
+#### piano
+
+#### acapella
+
+### compositions

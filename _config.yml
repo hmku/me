@@ -34,12 +34,17 @@ theme: minima
 plugins:
   - jekyll-feed
 
-# Collections
+# collections
 collections_dir: collections
 collections:
   - arrangements
 
-
+# defaults
+defaults:
+  - scope:
+      path: "assets/sheets"
+    values:
+      sheet: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.

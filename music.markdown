@@ -19,8 +19,15 @@ A collection of all the projects I've worked on.
     <td> {{ arr.name }} </td>
     <td> {{ arr.composer }} </td>
     <td> {{ arr.instrumentation }} </td>
-    <td> <a href="https://github.com/{{ arr.recording }}">link</a> </td>
-    <td> <a href="https://github.com/{{ arr.sheet }}">link</a> </td>
+    <td> <a href="{{ arr.recording }}">link</a> </td>
+
+    {% assign filename = arr.name | split: "(" | first | downcase | strip | replace: " ", "_" %}
+    {% assign sheets = site.static_files | where: "sheet", true %}
+    {% for sheet in sheets %}
+      {% if sheet.basename == filename %}
+        <td> <a href="{{ sheet.path }}">link</a> </td>
+      {% endif %}
+    {% endfor %}
   </tr>
 {% endfor %}
 </table>

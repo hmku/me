@@ -3,16 +3,8 @@ layout: page
 title: about
 permalink: /about/
 ---
+Hi, I'm Harrison! I currently work as a quantitative trader. I majored in CS + Stats at UC San Diego.
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+This website is my attempt to collect everything I have to show for my hobbies and put them in one place. 
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+Other than the things here, I also enjoy reading, playing smash, and listening to music.

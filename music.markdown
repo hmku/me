@@ -4,7 +4,7 @@ title: music
 permalink: /music/
 ---
 
-A collection of all the projects I've worked on.
+A collection of all the arrangements/compositions I've worked on.
 
 <table>
   <tr>
@@ -21,7 +21,7 @@ A collection of all the projects I've worked on.
     <td> {{ arr.instrumentation }} </td>
     <td> <a href="{{ arr.recording }}">link</a> </td>
 
-    {% assign filename = arr.name | split: "(" | first | downcase | strip | replace: " ", "_" %}
+    {% assign filename = arr.name | remove: "(" | remove: ")" | remove: "/ " | remove: "'" | downcase | strip | replace: " ", "_" %}
     {% assign sheets = site.static_files | where: "sheet", true %}
     {% for sheet in sheets %}
       {% if sheet.basename == filename %}

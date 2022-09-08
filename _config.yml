@@ -35,7 +35,7 @@ plugins:
 # collections
 collections_dir: collections
 collections:
-  - arrangements
+  - banks
 
 # defaults
 defaults:

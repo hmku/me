@@ -40,7 +40,7 @@ collections:
 # defaults
 defaults:
   - scope:
-      path: "site-new/assets/sheets"
+      path: "assets/sheets"
     values:
       sheet: true
 

@@ -4,7 +4,7 @@ title: music
 permalink: /music/
 ---
 
-A collection of all the arrangements/compositions I've worked on.
+A collection of some of the arrangements/compositions I've worked on.
 
 <table>
   <tr>

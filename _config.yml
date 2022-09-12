@@ -22,8 +22,8 @@ title: hku
 # email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   hku's personal website
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/site-new" # the subpath of your site, e.g. /blog
+url: "http://hmku.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  hmku
 linkedin_username: hmku1
 

@@ -2,6 +2,7 @@
 layout: page
 title: music
 permalink: /music/
+exclude: false
 ---
 
 A collection of some of the arrangements/compositions I've worked on.

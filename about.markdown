@@ -2,6 +2,7 @@
 layout: page
 title: about
 permalink: /about/
+exclude: false
 ---
 Hi, I'm Harrison! I currently work as a quantitative trader. I majored in CS + Stats at UC San Diego.
 

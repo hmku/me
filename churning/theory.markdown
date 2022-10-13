@@ -1,11 +1,10 @@
 ---
 layout: page
-title: churning
-permalink: /churning/
+title: theory
+permalink: /churning/theory
+exclude: true
 ---
-My guide to credit card churning.
 
-### theory
 Most people can be categorized into one of the following levels based on the mechanism through which they spend money.
 
 **Level 0:** Only using cash/debit card. This is significantly worse than using a credit card, as you lose many of the valuable benefits of using a credit card (building credit, fraud protection, etc.). However, it's plausible that this is the optimal point for those who struggle with keeping track of finances/remembering to make payments/spending responsibly.
@@ -20,32 +19,4 @@ Most people can be categorized into one of the following levels based on the mec
 
 **Level 5:** This is level 4, but fully optimized using a variety of strategies. Most individuals in this level are limited in their returns not by the amount of money they are able to "spend", but by the amount of cards that banks will let them apply for. 
 
-This writeup focuses on level 4/5.
-
-### glossary
-
-| term | definition |
-| --- | --- |
-| SUB | signup bonus |
-| MSR | minimum spend requirement (for signup bonus) |
-
-### quickstart
-In general, you can only receive a SUB for a card every 24 months (with some exceptions), and so you should try to apply for cards when the signup bonus is at an all-time high. You shouldn't apply for cards too frequently (e.g. multiple cards in a week), since frequent hard pulls will negatively impact your credit score. Some banks have velocity limits on how often you can apply for their cards (e.g. applying for a Chase card more than once every 3 months will put you at risk of shutdown). 
-
-By far the most restrictive anti-churning rule is Chase's 5/24 rule: you can only be approved for a Chase card if you have been approved for less than 5 personal cards (from any issuer) in the past 24 months. As a result, it is generally recommended to apply for Chase cards first, and then apply for non-Chase cards after exceeding 5/24. (This is less relevant for those who plan to never exceed 5/24, e.g. by mostly applying for business cards).
-
-Business cards are also a valuable source of return - they generally have higher MSRs but also come with high SUBs. Some have fewer restrictions on how often you can receive the SUB (e.g. Chase business cards have no such restriction). Most importantly, they generally don't count towards 5/24.
-
-The optimal credit card application path varies from person to person and depends on factors such as credit score, amount of spending, airline/hotel preferences, etc. (For example, an individual living in New York would probably not get much value out of Southwest cards, but someone living in California might.)
-
-The two primary card issuers are Chase and Amex, and most strategies revolve around their cards. Other card issuers of interest, in very approximate order of importance, include Barclays, Capital One, Citibank, US Bank, and Bank of America.
-
-### resources
-[r/churning](https://reddit.com/r/churning): The primary repository of churning knowledge. The daily question/discussion threads are great places to learn and ask questions, and the wiki is also useful (although a bit outdated).
-* 
-
-### breakdown by bank
-{% for bank in site.banks %}
-  <h3>{{ bank.name }}</h3>
-  <p>{{ bank.content | markdownify }}</p>
-{% endfor %}
+This guide focuses on level 4/5.

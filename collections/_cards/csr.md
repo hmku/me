@@ -1,5 +1,5 @@
 ---
-name: Chase Sapphire Reserve
+name: sapphire seserve
 bank: chase
 ---
 pog

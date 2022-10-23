@@ -13,3 +13,8 @@ name: chase
 * You can only refer people for your card family (e.g. Freedom, United MileagePlus)
 * Chase will not approve you for a card if your total credit limit across all cards exceeds half your salary.
 * Chase will prorate your annual fee if you cancel in the middle of a cardmember year.
+* Chase rarely/never claws back SUBs for returns/MS.
+
+#### best redemptions
+* PYB for 1.5cpp
+* Transfer to Hyatt for >2cpp

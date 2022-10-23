@@ -21,20 +21,22 @@ And some more advanced resources:
 * [chase biz card approval guide](https://www.reddit.com/r/churning/comments/844m2m/step_by_step_guide_to_getting_approved_for_chase/)
 * [chase biz card verification guide](https://www.reddit.com/r/churning/comments/6hclj4/i_survived_the_dreaded_chase_business/)
 * [doc reconsideration lines](https://www.doctorofcredit.com/credit-cards/credit-card-reconsideration-line-telephone-numbers/)
+* [hotel point redemption search](https://www.maxmypoint.com)
+* [status match datapoints](https://www.statusmatcher.com)
 
 <br> 
 
 ---
 
-<br> 
-
 {% for bank in site.banks %}
+  <br>
   <h2>{{ bank.name }}</h2>
   <p>{{ bank.content | markdownify }}</p>
   {% for card in site.cards %}
     {% if card.bank == bank.name %} 
-      <h3>{{ card.name }}</h3>
-      <p>{{ card.content | markdownify }}</p>
+  <br>
+  <h3>{{ card.name }}</h3>
+  <p>{{ card.content | markdownify }}</p>
     {% endif %} 
   {% endfor %}
 {% endfor %}

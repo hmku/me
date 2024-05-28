@@ -16,5 +16,5 @@ name: chase
 * Chase rarely/never claws back SUBs for returns/MS.
 
 #### best redemptions
-* PYB for 1.5cpp
 * Transfer to Hyatt for >2cpp
+* PYB for 1.5cpp

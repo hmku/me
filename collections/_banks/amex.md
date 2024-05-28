@@ -20,6 +20,6 @@ name: amex
     * Always call Amex when AF posts and ask for a retention offer
 
 #### best redemptions
-* Book Skyteam flights using ANA/Aeroplan/LifeMiles
+* Book Star Alliance flights using ANA/Aeroplan/LifeMiles
 * Booking Air France/KLM with Flying Blue can be a good redemption
 * Hilton during 30% transfer bonus is not bad

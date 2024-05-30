@@ -16,7 +16,7 @@ I spent a week and a half traveling in Australia and New Zealand from P2’s end
 
 ** RT/2 for flights, includes room upgrades for hotels
 
-<-->
+<!--more-->
 
 ## Flights
 

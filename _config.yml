@@ -37,6 +37,7 @@ collections_dir: collections
 collections:
   - banks
   - cards
+  - posts
 
 # defaults
 defaults:
@@ -45,7 +46,7 @@ defaults:
     values:
       sheet: true
 
-excerpt_separator: <-->
+excerpt_separator: <!--more-->
 
 # Exclude from processing.
 # The following items will not be processed, by default.
